@@ -1,0 +1,28 @@
+// 1. Template literal
+let name = "Riya";
+let score = 92;
+console.log(`1. Hello ${name}, you scored ${score} in Web Development!`);
+
+// 2. String with your name
+let myName = "Bhumi";
+console.log("2. My name is: " + myName);
+
+// 3. Combine "Alpha" and "Intern"
+let part1 = "Alpha";
+let part2 = "Intern";
+let combined = part1 + part2;
+console.log("3. Combined string: " + combined);
+
+// 4. Print 4th character from "AlphaIntern"
+console.log("4. 4th character of 'AlphaIntern': " + combined[3]);
+
+// 5. Convert "backend developer" to uppercase
+let role = "backend developer";
+console.log("5. Uppercase: " + role.toUpperCase());
+
+// 6. Convert "MERN STACK" to lowercase
+let techStack = "MERN STACK";
+console.log("6. Lowercase: " + techStack.toLowerCase());
+
+// 7. Length of "AlphaIntern"
+console.log("7. Length of 'AlphaIntern': " + combined.length);
