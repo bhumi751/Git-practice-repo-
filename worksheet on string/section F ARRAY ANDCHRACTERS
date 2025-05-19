@@ -1,0 +1,44 @@
+// 1. Convert the sentence "I love coding" into an array of words
+let sentence = "I love coding";
+let wordsArray = sentence.split(" ");
+console.log("1. Array of words:", wordsArray); // ["I", "love", "coding"]
+
+// 2. Convert the string "Alpha" into an array of characters
+let alpha = "Alpha";
+let charArray = alpha.split("");
+console.log("2. Array of characters:", charArray); // ["A", "l", "p", "h", "a"]
+
+// 3. Print the ASCII value of the character "A"
+let asciiValue = "A".charCodeAt(0);
+console.log("3. ASCII value of 'A':", asciiValue); // 65
+
+// 4. Join the array ["web", "dev"] into a single string with a space in between
+let arr = ["web", "dev"];
+let joinedStr = arr.join(" ");
+console.log("4. Joined string:", joinedStr); // "web dev"
+
+// 5. Given "JavaScript is Awesome", perform multiple operations
+let jsStr = "JavaScript is Awesome";
+
+// a. All lowercase
+console.log("5a. Lowercase:", jsStr.toLowerCase()); // "javascript is awesome"
+
+// b. All uppercase
+console.log("5b. Uppercase:", jsStr.toUpperCase()); // "JAVASCRIPT IS AWESOME"
+
+// c. Replace "Awesome" with "Powerful"
+let replacedStr = jsStr.replace("Awesome", "Powerful");
+console.log("5c. Replace 'Awesome' with 'Powerful':", replacedStr); // "JavaScript is Powerful"
+
+// d. Check if the string starts with "Java"
+console.log("5d. Starts with 'Java':", jsStr.startsWith("Java")); // true
+
+// 6. From the string "AlphaIntern WebDev", extract the word "WebDev"
+let fullStr = "AlphaIntern WebDev";
+let extracted = fullStr.slice(fullStr.indexOf("WebDev"));
+console.log("6. Extract 'WebDev':", extracted); // "WebDev"
+
+// 7. Convert "apple, banana, grape" into an array
+let fruits = "apple, banana, grape";
+let fruitsArray = fruits.split(", ");
+console.log("7. Fruits array:", fruitsArray); // ["apple", "banana", "grape"]
