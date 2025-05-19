@@ -1,0 +1,23 @@
+// 1. Replace the word "Intern" with "Mentor" in "AlphaIntern"
+let str1 = "AlphaIntern";
+let modifiedStr1 = str1.replace("Intern", "Mentor");
+console.log('1. Replace "Intern" with "Mentor":', modifiedStr1); // "AlphaMentor"
+
+// 2. Replace all occurrences of "a" with "z" in "banana"
+let str2 = "banana";
+let modifiedStr2 = str2.replaceAll("a", "z");
+console.log('2. Replace all occurrences of "a" with "z":', modifiedStr2); // "bnznz"
+
+// 3. Remove all extra spaces from the string " JavaScript is awesome " and print the result
+let str3 = " JavaScript is awesome ";
+let modifiedStr3 = str3.trim();
+console.log('3. Remove extra spaces:', modifiedStr3); // "JavaScript is awesome"
+
+// 4. Extract "Intern" from the string "AlphaIntern"
+let str4 = "AlphaIntern";
+let extractedStr4 = str4.slice(5); // Extracting from index 5
+console.log('4. Extract "Intern":', extractedStr4); // "Intern"
+
+// 5. Extract "Alpha" from the string "AlphaIntern"
+let extractedStr5 = str4.slice(0, 5); // Extracting from start to index 5
+console.log('5. Extract "Alpha":', extractedStr5); // "Alpha"
