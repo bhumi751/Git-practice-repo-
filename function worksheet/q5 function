@@ -1,0 +1,18 @@
+function containsLetterA(str) {
+    // Check if the input is a valid string
+    if (typeof str !== "string") {
+        return "Please enter a valid string.";
+    }
+
+    // Check if the string contains 'a' or 'A'
+    if (str.includes('a') || str.includes('A')) {
+        return "The string contains the letter 'a' or 'A'.";
+    } else {
+        return "The string does not contain the letter 'a' or 'A'.";
+    }
+}
+
+// Example usage:
+console.log(containsLetterA("Apple"));   // Output: The string contains the letter 'a' or 'A'.
+console.log(containsLetterA("hello"));   // Output: The string does not contain the letter 'a' or 'A'.
+console.log(containsLetterA("banana"));  // Output: The string contains the letter 'a' or 'A'.

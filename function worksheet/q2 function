@@ -1,0 +1,20 @@
+function findGreaterNumber(num1, num2) {
+    // Check if both inputs are valid numbers
+    if (isNaN(num1) || isNaN(num2)) {
+        return "Please enter valid numbers.";
+    }
+
+    // Compare the two numbers
+    if (num1 > num2) {
+        return `${num1} is greater than ${num2}.`;
+    } else if (num2 > num1) {
+        return `${num2} is greater than ${num1}.`;
+    } else {
+        return "Both numbers are equal.";
+    }
+}
+
+// Example usage:
+console.log(findGreaterNumber(10, 20)); // Output: 20 is greater than 10.
+console.log(findGreaterNumber(50, 30)); // Output: 50 is greater than 30.
+console.log(findGreaterNumber(25, 25)); // Output: Both numbers are equal.

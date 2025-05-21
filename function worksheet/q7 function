@@ -1,0 +1,18 @@
+function isBetweenOneAndTen(number) {
+    // Check if the input is a valid number
+    if (isNaN(number)) {
+        return "Please enter a valid number.";
+    }
+
+    // Check if the number is between 1 and 10
+    if (number >= 1 && number <= 10) {
+        return "The number is between 1 and 10.";
+    } else {
+        return "The number is not between 1 and 10.";
+    }
+}
+
+// Example usage:
+console.log(isBetweenOneAndTen(5));   // Output: The number is between 1 and 10.
+console.log(isBetweenOneAndTen(0));   // Output: The number is not between 1 and 10.
+console.log(isBetweenOneAndTen(11));  // Output: The number is not between 1 and 10.

@@ -1,0 +1,18 @@
+function containsHello(str) {
+    // Check if the input is a valid string
+    if (typeof str !== "string") {
+        return "Please enter a valid string.";
+    }
+
+    // Convert the string to lowercase and check for "hello"
+    if (str.toLowerCase().includes("hello")) {
+        return 'The string contains the word "hello".';
+    } else {
+        return 'The string does not contain the word "hello".';
+    }
+}
+
+// Example usage:
+console.log(containsHello("Hello there!"));       // Output: The string contains the word "hello".
+console.log(containsHello("Say hi to everyone")); // Output: The string does not contain the word "hello".
+console.log(containsHello("hello world"));        // Output: The string contains the word "hello".

@@ -1,0 +1,18 @@
+function isMultipleOfThree(number) {
+    // Check if the input is a valid number
+    if (isNaN(number)) {
+        return "Please enter a valid number.";
+    }
+
+    // Check if the number is a multiple of 3
+    if (number % 3 === 0) {
+        return "The number is a multiple of 3.";
+    } else {
+        return "The number is not a multiple of 3.";
+    }
+}
+
+// Example usage:
+console.log(isMultipleOfThree(9));    // Output: The number is a multiple of 3.
+console.log(isMultipleOfThree(10));   // Output: The number is not a multiple of 3.
+console.log(isMultipleOfThree(0));    // Output: The number is a multiple of 3.

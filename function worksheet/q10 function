@@ -1,0 +1,14 @@
+function multiplyByTen(number) {
+    // Check if the input is a valid number
+    if (isNaN(number)) {
+        return "Please enter a valid number.";
+    }
+
+    // Multiply the number by 10 and return the result
+    return number * 10;
+}
+
+// Example usage:
+console.log(multiplyByTen(5));    // Output: 50
+console.log(multiplyByTen(0));    // Output: 0
+console.log(multiplyByTen(-3));   // Output: -30

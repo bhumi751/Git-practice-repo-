@@ -1,0 +1,20 @@
+function checkSign(number) {
+    // Check if the input is a valid number
+    if (isNaN(number)) {
+        return "Please enter a valid number.";
+    }
+
+    // Determine if the number is positive, negative, or zero
+    if (number > 0) {
+        return "The number is positive.";
+    } else if (number < 0) {
+        return "The number is negative.";
+    } else {
+        return "The number is zero.";
+    }
+}
+
+// Example usage:
+console.log(checkSign(10));   // Output: The number is positive.
+console.log(checkSign(-5));   // Output: The number is negative.
+console.log(checkSign(0));    // Output: The number is zero.
