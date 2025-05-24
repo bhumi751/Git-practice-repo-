@@ -1,0 +1,4 @@
+const square = num => num * num;
+const cube = num => num ** 3;
+const evenOrOdd = num => num % 2 === 0 ? "Even" : "Odd";
+

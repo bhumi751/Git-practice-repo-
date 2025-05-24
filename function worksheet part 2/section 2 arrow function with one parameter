@@ -1,0 +1,2 @@
+const greet = name => `Hello, ${name}!`;
+const sqrt = n => Math.sqrt(n);
